@@ -1,0 +1,29 @@
+{
+  "rows": 3090,
+  "loaded_from": "payer_unsupervised_anomaly_data.csv",
+  "timestamp_utc": "2025-12-04T17:52:03.904877Z",
+  "flags_counts": {
+    "missing_key": 688,
+    "dup_full_row": 32,
+    "dup_claimid_flag": 322,
+    "bad_claimdate": 163,
+    "bad_servicedate": 172,
+    "bad_dob": 161,
+    "bad_zip": 168,
+    "bad_state": 581,
+    "bad_amount_format": 159,
+    "bad_diag_code": 154,
+    "bad_proc_code": 155,
+    "dob_after_claim": 22,
+    "service_after_claim": 2639,
+    "negative_amount": 27,
+    "zero_amount": 0,
+    "amount_suspect_flag": 61
+  },
+  "dq_score_stats": {
+    "mean": 0.11132686084142394,
+    "median": 0.125,
+    "pct_zero_flags": 0.018770226537216828
+  },
+  "duplicate_claimid_count": 322
+}
